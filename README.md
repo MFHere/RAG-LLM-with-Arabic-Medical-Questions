@@ -66,8 +66,6 @@ The application is integrated with **Gradio** to provide an interactive user int
 - The model only provides medical information for **internal medicine** and may advise consulting a physician if the question is outside its scope.
 - The **vector database** stores the vectorized data for internal medicine.
 
-## Credits
-
 
 
 
