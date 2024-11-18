@@ -22,33 +22,6 @@ The purpose of this project is to develop a **RAG model** using a Large Language
 
 To ensure high-quality responses, the application uses a prompt-based approach. If the system cannot confidently answer a question, it advises the user to consult a physician.
 
-### Data Sources
-1. **Original Dataset**: [Arabic Medical Questions Dataset](https://www.kaggle.com/datasets/mohamedmahmod/ragdata)
-   - Contains question and answer pairs from 20 different medical specialties.
-   
-2. **Vector Database**: [Vectorized Internal Medicine Data](https://www.kaggle.com/datasets/mohamedmahmod/vectorragdata)
-   - Converted internal medicine questions into vector embeddings for retrieval.
-
-## Installation
-
-1. Clone the repository:
-
-    ```bash
-    git clone [https://github.com/your-repo-link.git](https://github.com/MohamedMahmoudsh/RAG-Application-with-LLM-for-Arabic-Medical-Questions)
-    cd your-repo-link
-    ```
-
-2. Install dependencies:
-
-    ```bash
-    pip install -r requirements.txt
-    ```
-
-3. Download the datasets:
-    - The question-answer dataset can be found on Kaggle [here](https://www.kaggle.com/datasets/mohamedmahmod/ragdata).
-    - The vector database is available [here](https://www.kaggle.com/datasets/mohamedmahmod/vectorragdata).
-
-4. Place the downloaded datasets in the appropriate directories in your project folder.
 
 ## How It Works
 
@@ -95,9 +68,6 @@ The application is integrated with **Gradio** to provide an interactive user int
 
 ## Credits
 
-This project was developed by **Mohamed Mahmoud** as part of a specialized application in the medical field.
 
-- [Arabic Medical Questions Dataset](https://www.kaggle.com/datasets/mohamedmahmod/ragdata)
-- [Vectorized Internal Medicine Data](https://www.kaggle.com/datasets/mohamedmahmod/vectorragdata)
 
 
